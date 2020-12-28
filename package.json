@@ -1,0 +1,49 @@
+{
+  "name": "react-theme",
+  "displayName": "react-theme",
+  "description": "A elegant dark theme for react developement",
+  "version": "0.0.1",
+  "publisher": "Jeans",
+  "author": {
+    "name": "Jeann Carlos Batemarque"
+  },
+  "engines": {
+    "vscode": "^1.52.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeann47/react-theme.git"
+  },
+  "galleryBanner": {
+    "color": "#011824",
+    "theme": "dark"
+  },
+  "icon": "images/icon.png",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "React",
+    "Theme",
+    "React theme",
+    "js",
+    "ts",
+    "jsx",
+    "tsx",
+    "javascript",
+    "typescript",
+    "dark theme",
+    "tema react",
+    "colors",
+    "decorators"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "React Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/React Theme-color-theme.json"
+      }
+    ]
+  }
+}
