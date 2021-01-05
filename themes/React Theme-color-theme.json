@@ -73,7 +73,6 @@
 			"scope": [
 				"constant.other.color",
 				"punctuation",
-				"meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
@@ -85,6 +84,14 @@
 			],
 			"settings": {
 				"foreground": "#8cdeff"
+			}
+		},{
+			"name": "Plain text",
+			"scope": [
+				"meta.tag",
+			],
+			"settings": {
+				"foreground": "#f2f2f2"
 			}
 		},
 		{
@@ -117,7 +124,7 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#9e9e9e"
+				"foreground": "#fff"
 			}
 		},
 		{
